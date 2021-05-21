@@ -19,24 +19,9 @@ models:
   ad_reporting:
     +materialized: view
   
-  pinterest:
-    enabled: true
-  pinterest_source:
-    enabled: true
-  
   microsoft_ads:
     enabled: true
   microsoft_ads_source:
-    enabled: true
-  
-  linkedin:
-    enabled: true
-  linkedin_source:
-    enabled: true
-  
-  twitter_ads:
-    enabled: true
-  twitter_ads_source:
     enabled: true
   
   facebook_ads:
@@ -49,9 +34,4 @@ models:
   google_ads:
     enabled: true
   google_ads_source:
-    enabled: true
-
-  snapchat_ads:
-    enabled: true
-  snapchat_ads_source:
     enabled: true
